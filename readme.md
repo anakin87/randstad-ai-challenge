@@ -2,6 +2,11 @@
 <img src='logo.jpg' width='600'/>
 Soluzione proposta da Stefano Fiorucci (anakin87) - primo classificato
 
+  * [Struttura directory del progetto](#struttura-directory-del-progetto)
+  * [Preparazione dell'ambiente di esecuzione](#preparazione-dell-ambiente-di-esecuzione)
+  * [Esecuzione degli script](#esecuzione-degli-script)
+    + [Nota](#nota)
+
 ## Struttura directory del progetto
 + directory input:
     + train_set.csv e test_set.csv *(assenti per motivi di copyright, reperibili mediante iscrizione su https://www.vgen.it/randstad-artificial-intelligence-challenge/)*
@@ -33,6 +38,7 @@ la predizione
 	+ try_best_model.py: script python di esempio che mostra come caricare il
 modello salvato e usarlo per nuove predizioni
 
+<a name="preparazione-dell-ambiente-di-esecuzione"></a>
 ## Preparazione dell'ambiente di esecuzione
 
 Per eseguire gli script, è necessario Python>=3.6.
