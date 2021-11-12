@@ -1,7 +1,8 @@
 # Randstad Artificial Intelligence Challenge (powered by VGEN)
+<img src='logo.jpg' width='600'/>
 Soluzione proposta da Stefano Fiorucci (anakin87) - primo classificato
 
-##Struttura directory del progetto
+## Struttura directory del progetto
 + directory input:
     + train_set.csv e test_set.csv *(assenti per motivi di copyright, reperibili mediante iscrizione su https://www.vgen.it/randstad-artificial-intelligence-challenge/)*
     + correzioni.json: file JSON contenente le correzioni per le parole erroneamente
@@ -38,31 +39,31 @@ Per eseguire gli script, è necessario Python>=3.6.
 Si consiglia di preparare l’ambiente di esecuzione mediante i seguenti passaggi:
 1. scaricamento del repository
 2. a partire dalla directory principale, creazione di un python virtual environment con il
-comando
+comando<br/>
 `python3 -m venv venv`
 3. attivazione del virtual environment
-a. windows
+    + windows<br/>
 `venv\Scripts\activate`
-b. linux
+    + linux<br/>
 `source venv/bin/activate`
-4. installazione delle librerie necessarie con il comando
+4. installazione delle librerie necessarie con il comando<br/>
 `pip install -r requirements.txt`
 
 ## Esecuzione degli script
 
 - *try_best_model* è uno script python di esempio che mostra come caricare il migliore
 modello salvato e usarlo per nuove predizioni
-si lancia con la sintassi
+si lancia con la sintassi<br/>
 `python try_best_model.py`
 -  Lo script *train_model* lancia l’addestramento del modello, seguito dalla stampa delle metriche valutate sul test set e può essere eseguito con la sintassi
-  - Windows
+    + Windows <br/>
 `python train_model_windows.py`
-  - Linux
+    + Linux <br/>
 `python train_model_linux.py`
-Possono essere specificati i parametri:
---save-model (oppure -s), che salva il modello appena addestrato nella directory
+<br/><br/>Possono essere specificati i parametri:
+`--save-model` (oppure `-s`), che salva il modello appena addestrato nella directory
 output, con un nome file indicante data e ora
---get-predictions (oppure -p), che genera le predizioni sul test set in formato csv e le
+`--get-predictions` (oppure `-p`), che genera le predizioni sul test set in formato csv e le
 salva nella directory di output, con un nome file indicante data e ora
 
 ### Nota
