@@ -28,7 +28,7 @@ suddetto notebook
     + readme.md: questa guida
 	+ requirements.txt: le librerie python da installare per riprodurre l'ambiente di
 addestramento/predizione
-    + presentation.pdf: la presentazione della soluzione proposta
+    + slides.pdf: la presentazione della soluzione proposta
 	+ train_model_windows.py: versione Windows dello script python che
 consente di ripetere l'addestramento, la valutazione del modello, il
 salvataggio del modello e la scrittura del CSV con le predizioni
